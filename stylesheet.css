@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+/*Navigation Bar*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 90px;
+    padding-top: 2%;
+    padding-left: 5%;
+
+  }
+
+  .navbar-logo { /*Logo in the nav bar*/
+    margin: -90px;
+  }
+
+  .navbar-logo img {
+    height: 130px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    padding-right: 100px;
+  }
+
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 80px;
+    z-index: 5;
+  }
+
+  .navbar-links li {
+    margin: 0 10px;
+    padding: 36px;
+  }
+
+  .navbar-links a {
+    text-decoration: none;
+    color: #fef1dd;
+    font-weight: bold;
+    font-family: jolly lodger;
+    text-shadow: -3px 3px 16px #000000;
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  .navbar-links a:hover {
+    text-decoration: none;
+    color: #f29e1f;
+    font-weight: bold;
+    font-family: jolly lodger;
+    text-shadow: -3px 3px 16px #c4b6b6;
+    letter-spacing: 2px;
+    font-size: 30.5px;
+  }
+  
+.navcloud1{
+    height: 90px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left:832px;
+}
+.navcloud2{
+    height: 90px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 40px;
+    z-index: 3;
+    left:987px;
+}
+.navcloud3{
+    height: 93px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top: 38px;
+    z-index: 3;
+    left:1149px;
+}
+.navcloud4{
+    height: 90px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+    position: absolute;
+    top:40px;
+    z-index: 3;
+    left:1310px;
+}
+.header{
+    color: #fff;
+    text-align: center;
+    font-size: 180px;
+    margin:0,110px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/bg2.png); 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.trailer h1{
+    position:relative;
+    top: 200px;
+    background: #c48d17;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    font-size: 70px;
+    margin:0,auto;
+    font-family:jolly lodger;
+    letter-spacing: 5px;
+}
+.trailer p{
+    position:relative;
+    top: 200px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    margin:0,110px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: center;
+    margin: 0 auto;
+}
+.trailervid{
+    position:relative;
+    top: 200px;
+    left: 760px;
+    margin: 0 auto;
+}
+.container {
+    margin:0 auto; /* this will center the page */
+    width:60px; /*  use your width here */
+ }
+.features{
+  margin: 0 auto;
+  position:absolute;
+  top:1200px;
+  background-color:#000000; 
+  background-size: cover ;
+}
