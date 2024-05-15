@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Hungry Minds Studios</title>
+  <meta name="title" content="Hungry Minds Studios">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logowhite.png" >
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle" data-circle></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="120" height="27" alt="Youdemi home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="120" height="27" alt="Youdemi home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link title-sm" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link title-sm" data-nav-link>Projects</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#engvoyage" class="navbar-link title-sm" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#footerid" class="navbar-link title-sm" data-nav-link>Contacts</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#projects" class="btn btn-5">UPCOMING PROJECTS</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-labelledby="hero-label"
+        style="background-image: url('./assets/images/hero-bg.png')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="headline-lg" id="hero-label">
+              Better <span class="span">Learning Future</span> Starts With Hungry Minds Studios
+            </h1>
+
+            <p class="title-md has-before">
+              A passion for learning encourages the mind to stay hungry for knowledge. 
+            </p>
+
+            <div class="btn-group">
+
+              <a href="#engvoyage" class="btn btn-3">English Voyage</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="590" height="620" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category has-bg-image" aria-labelledby="category-label"
+        style="background-image: url('./assets/images/category-bg2.png')">
+        <div class="container">
+
+          <p class="title-sm text-center section-subtitle" id="category-label">Lesson Categories</p>
+
+          <h2 class="headline-md text-center section-title">
+            Topics that <span class="span has-after">English Voyage</span> covers
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-1.svg" width="72" height="72" loading="lazy"
+                    alt="Data Science icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Pronoun</h3>
+
+                  <p class="title-sm">They facilitate fluidity of expression and maintaining focus on ideas rather than repetitive naming.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-2.svg" width="72" height="72" loading="lazy"
+                    alt="UI/UX Design icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Verb</h3>
+
+                  <p class="title-sm">
+                    They give life to sentences, communication, thoughts, desires, and experiences. </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card category-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/category-3.svg" width="72" height="72" loading="lazy"
+                    alt="Modern Physics icon">
+                </div>
+
+                <div>
+                  <h3 class="title-lg">Adjectives</h3>
+
+                  <p class="title-sm">They add color, depth, and precision to writing, enriching expression and painting vibrant pictures with words.</p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <div id="engvoyage"></div>
+          <a href="#" class="btn btn-primary">View All Categories</a>
+
+        </div>
+      </section>
+  
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+      
+      <section class="section about" aria-labelledby="about-label">
+
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/2ndimg.png" width="775" height="685" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+            <h2 class="headline-md section-title">
+              About Us
+            </h2>
+
+            <p class="title-sm section-text">
+              We are a group of game developers whose passion lies in creating fun and creative games to educate and entertain children all around the world in various subjects such as English, Mathematics, Science and more. As a studio, we aim to make game experiences that are easily digestible to our target audience as they navigate the worlds we make within the confines of the student's place of study, whether it be in the classroom or in their tutelage.
+
+            <ul class="progress-list">
+              <p class="title-sm section-subtitle" id="about-label">Hungry Minds Studios Presents</p>
+              <h2 class="headline-md section-title">
+                ENGLISH VOYAGE
+              </h2>
+  
+              <p class="title-sm section-text">
+                English Voyage is a game where "Johnny English" embarks on a journey to travel through time, battling peoples and monsters from past and future in the bid to master the linguistics of the English language
+              </p>
+  
+
+            </ul>
+            
+          </div>
+          <div id="projects"></div>
+        </div>
+      
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COURSE
+      -->
+
+      <section class="section course has-bg-image" aria-labelledby="course-label"
+        style="background-image: url('./assets/images/course-bg.png')">
+        <div class="container">
+
+          <p class="title-sm section-subtitle text-center">Hungry Minds Studios</p>
+
+          <h2 class="headline-md section-title text-center" id="course-label">
+            PROJECTS
+          </h2>
+          
+          <ul class="grid-list">
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/Group 7.png" width="370" height="248" loading="lazy"
+                    alt="Basic Fundamentals of Interior & Graphics Design" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">15 AED priced /copy </p>
+
+                    <div class="rating-wrapper">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                      <img src="./assets/images/star-fill.svg" width="16" height="16" loading="lazy" alt="">
+                    </div>
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    English Voyage
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">10 Levels</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Single player</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Basic Fundamentals of Interior & Graphics Design"></a>
+
+              </div>
+            </li>
+
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/questionmark.png" width="370" height="248" loading="lazy"
+                    alt="Increasing Engagement with Instagram & Facebook" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">???</p>
+
+                   
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    COMING SOON....
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">? Lessons</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Single/Multiplayer</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Increasing Engagement with Instagram & Facebook"></a>
+
+              </div>
+            </li>
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/questionmark.png" width="370" height="248" loading="lazy"
+                    alt="Increasing Engagement with Instagram & Facebook" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">???</p>
+
+                   
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    COMING SOON....
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">? Lessons</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Single/Multiplayer</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Increasing Engagement with Instagram & Facebook"></a>
+
+              </div>
+            </li>
+            
+            <li class="card-container">
+              <div class="card course-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/questionmark.png" width="370" height="248" loading="lazy"
+                    alt="Increasing Engagement with Instagram & Facebook" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+
+                    <p class="title-lg card-price">???</p>
+
+                   
+
+                  </div>
+
+                  <h3 class="title-lg card-title">
+                    COMING SOON....
+                  </h3>
+
+                  <div class="card-meta wrapper">
+
+                    <p class="title-sm">
+                      <img src="./assets/images/file-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">? Lessons</span>
+                    </p>
+
+                    <p class="title-sm">
+                      <img src="./assets/images/user-outline.svg" width="20" height="20" loading="lazy" alt="">
+
+                      <span class="span">Single/Multiplayer</span>
+                    </p>
+
+                  </div>
+
+                </div>
+
+                <a href="#" class="layer-link"
+                  aria-label="Course Details, Increasing Engagement with Instagram & Facebook"></a>
+
+              </div>
+            </li>
+            
+
+            
+           
+
+            
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-labelledby="cta-label">
+        <div class="container">
+
+          <h2 class="headline-md section-title" id="cta-label">
+            Through creativity and engagement. </br>We build the future.
+          </h2>
+
+          <a href="#" class="btn btn-tertiary">Learn More</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="section footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="145" height="27" alt="Youdemi home">
+          </a>
+
+          <p class="title-sm footer-text">
+            Email: support@hungryminds.ae<br>
+            Dubai, United Arab Emirates
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <img src="./assets/images/twitter.svg" width="40" height="40" loading="lazy" alt="twitter">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/hungryminds_studios/" class="social-link">
+                <img src="./assets/images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="headline-sm footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="title-sm footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#engvoyage" class="title-sm footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="title-sm footer-link">Pricing</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="title-sm footer-link">Games</a>
+          </li>
+
+          <li>
+            <a href="#footerid" class="title-sm footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="headline-sm footer-list-title">Legal</p>
+          </li>
+
+          <li>
+            <a href="" class="title-sm footer-link">Legal</a>
+          </li>
+
+          <li>
+            <a href="" class="title-sm footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="" class="title-sm footer-link">Terms & Condition</a>
+          </li>
+
+          <li>
+            <a href="" class="title-sm footer-link">Payment Method</a>
+          </li>
+
+          <li>
+            <a href="" class="title-sm footer-link">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+
+            <p class="headline-sm footer-list-title">Instagram Post</p>
+
+            <ul class="grid-list">
+
+              <li>
+                <img src="./assets/images/left.jpg" width="100" height="100" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/middle.jpg" width="100" height="100" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+              <li>
+                <img src="./assets/images/right.jpg" width="100" height="100" loading="lazy" alt="instagram post"
+                  class="img-cover">
+              </li>
+
+
+            </ul>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <div id="footerid"></div>
+        <p class="copyright">
+          © Copyright 2024 | Hungry Minds Studios | All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+   - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
